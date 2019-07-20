@@ -4,5 +4,5 @@ app = FastAPI()
 
 @app.get("/")
 def get_hello():
-    return {"Hello":"World"}
+    return {"Hello":"World V2"}
 
