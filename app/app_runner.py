@@ -10,7 +10,7 @@ PORT = int(os.getenv('PORT', '80'))
 
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
 
     env_string = F"HOST={HOST}\nPORT={PORT}\n"
 
